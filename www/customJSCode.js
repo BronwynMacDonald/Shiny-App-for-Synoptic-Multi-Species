@@ -21,8 +21,8 @@ Shiny.addCustomMessageHandler('removeSelectionPolygon', function(x){
 
 Shiny.addCustomMessageHandler('fixDrawButtonTitles', function(x){
    //console.log('fixing draw buttons for map ' + x);
-   $('.leaflet-draw-draw-rectangle').attr('title', 'Rectangular selection');
-   $('.leaflet-draw-draw-polygon').attr('title', 'Polygon selection');
+   $('.leaflet-draw-draw-rectangle').attr('title', 'Highlight by drawing rectangle');
+   $('.leaflet-draw-draw-polygon').attr('title', 'Highlight by drawing polygon');
 });
 
 
