@@ -1,0 +1,13 @@
+*.pdf
+*.jpg
+*.tiff
+*.doc
+*.docx
+.RData
+.RDataTmp
+.Rhistory
+/rsconnect
+
+
+.Rproj.user
+Shiny-App-for-Synoptic.Rproj
